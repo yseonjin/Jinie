@@ -1,0 +1,61 @@
+header{
+  height: 200px;
+}
+
+#header-center {
+  margin: 0 auto;
+  width: auto;
+  text-align: right;
+}
+
+#header-search{
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 500px;
+  line-height: 200px;
+  background: url(./googleMainIMG.png);
+  /*background-position : 0px -158px;*/
+  /*background-image : url(./sp_00.png)*/
+  text-indent: 100%;
+  overflow: hidden;
+  vertical-align: center;
+  text-align: center;
+
+}
+
+#serch-box h2 {
+  display: none;
+}
+
+#search-box fieldset {
+  height: 118px;
+  text-align: -webkit-center;
+  border: 0;
+
+}
+
+#search-box fieldunder {
+  background: #fff;
+  color: #222;
+  text-align: center;
+  font-size: small;
+}
+
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+footer{
+  background-color: lightgray;
+
+}
+nav{
+  height: 700px;
+  text-align: center;
+}
